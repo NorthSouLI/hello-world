@@ -1,0 +1,36 @@
+package ybs101w4;
+import java.util.Scanner;
+
+public class ÇALIŞANKÖLE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	int girsayı	, sissayi;
+		
+	sissayi = (int)(Math.random() *101);	
+	System.out.println("sayıyı tahmin et (0-100)*");	
+	Scanner input = new Scanner (System.in);
+	girsayı = input.nextInt();	
+	
+	while (sissayi != girsayı){
+if (girsayı < sissayi)	{
+		System.out.println("daha büyük yaz");
+		
+	}else if (girsayı > sissayi) {	
+		System.out.println("sende abartma in biraz");
+		
+		
+	}	
+	 girsayı = input.nextInt();
+	 {
+	System.out.println("aferin");	
+	}	
+		
+		
+		
+		
+	}
+	
+}
+}
